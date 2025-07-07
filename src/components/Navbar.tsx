@@ -1,5 +1,5 @@
-
 import { Button } from "../components/ui/button";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -15,13 +15,15 @@ const Navbar = () => {
       </div>
       {/* Center: Nav Links */}
       <div className="flex gap-8">
-        <a href="#" className="text-gray-700 hover:text-black font-medium">Home</a>
-        <a href="#" className="text-gray-700 hover:text-black font-medium">About Us</a>
-        <a href="#" className="text-gray-700 hover:text-black font-medium">Our Projects</a>
-        <a href="#" className="text-gray-700 hover:text-black font-medium">Services</a>
+        <Link to="/" className="text-gray-700 hover:text-black font-medium">Home</Link>
+        <Link to="/about" className="text-gray-700 hover:text-black font-medium">About Us</Link>
+        <Link to="/projects" className="text-gray-700 hover:text-black font-medium">Our Projects</Link>
+        <Link to="/services" className="text-gray-700 hover:text-black font-medium">Services</Link>
       </div>
       {/* Right: Contact Us Button */}
-      <Button className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800">Contact Us</Button>
+      <Link to="/contact">
+        <Button className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800">Contact Us</Button>
+      </Link>
     </nav>
   )
 }
