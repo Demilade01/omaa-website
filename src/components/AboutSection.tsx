@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Users, TrendingUp, Star } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const AboutSection: React.FC = () => {
