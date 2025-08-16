@@ -1,7 +1,8 @@
-import React from 'react'
 import Hero from '../components/Hero'
 import Partners from '../components/Partners'
 import AboutSection from '../components/AboutSection'
+import ServicesSection from '../components/ServicesSection'
+import ProjectsSection from '../components/ProjectsSection'
 
 const Home = () => {
   return (
@@ -9,6 +10,8 @@ const Home = () => {
       <Hero />
       <Partners />
       <AboutSection />
+      <ServicesSection />
+      <ProjectsSection />
     </div>
   )
 }
