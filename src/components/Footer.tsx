@@ -1,12 +1,21 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronUp, Linkedin, Hexagon } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const Footer: React.FC = () => {
-  const [isLanguageOpen, setIsLanguageOpen] = useState(false);
-  const [selectedLanguage, setSelectedLanguage] = useState('English');
+  const { t } = useTranslation();
+  const { currentLanguage, changeLanguage, isLanguageOpen, setIsLanguageOpen } = useLanguage();
 
-  const languages = ['English', 'Portuguese'];
+  const languages = [
+    { code: 'en', name: t('languages.english') },
+    { code: 'pt', name: t('languages.portuguese') }
+  ];
+
+  const getCurrentLanguageName = () => {
+    return languages.find(lang => lang.code === currentLanguage)?.name || 'English';
+  };
 
   return (
     <footer className="bg-gray-900 text-white">
@@ -30,7 +39,7 @@ const Footer: React.FC = () => {
               onClick={() => setIsLanguageOpen(!isLanguageOpen)}
               className="flex items-center gap-2 text-white hover:text-gray-300 transition-colors"
             >
-              <span>{selectedLanguage}</span>
+              <span>{getCurrentLanguageName()}</span>
               <ChevronUp className={`w-4 h-4 transition-transform ${isLanguageOpen ? 'rotate-180' : ''}`} />
             </button>
 
@@ -38,16 +47,13 @@ const Footer: React.FC = () => {
               <div className="absolute top-full left-0 mt-2 bg-gray-800 rounded-lg shadow-lg py-2 min-w-[120px]">
                 {languages.map((language) => (
                   <button
-                    key={language}
-                    onClick={() => {
-                      setSelectedLanguage(language);
-                      setIsLanguageOpen(false);
-                    }}
+                    key={language.code}
+                    onClick={() => changeLanguage(language.code)}
                     className={`w-full px-4 py-2 text-left text-sm hover:bg-gray-700 transition-colors ${
-                      selectedLanguage === language ? 'bg-gray-700 text-white' : 'text-gray-300'
+                      currentLanguage === language.code ? 'bg-gray-700 text-white' : 'text-gray-300'
                     }`}
                   >
-                    {language}
+                    {language.name}
                   </button>
                 ))}
               </div>
@@ -57,19 +63,19 @@ const Footer: React.FC = () => {
           {/* Right Side - Navigation Links */}
           <nav className="flex flex-wrap gap-6">
             <Link to="/" className="text-gray-300 hover:text-white transition-colors">
-              Home
+              {t('footer.navigation.home')}
             </Link>
             <Link to="/about" className="text-gray-300 hover:text-white transition-colors">
-              About us
+              {t('footer.navigation.aboutUs')}
             </Link>
             <Link to="/projects" className="text-gray-300 hover:text-white transition-colors">
-              Our Projects
+              {t('footer.navigation.ourProjects')}
             </Link>
             <Link to="/services" className="text-gray-300 hover:text-white transition-colors">
-              Services
+              {t('footer.navigation.services')}
             </Link>
             <Link to="/blogs" className="text-gray-300 hover:text-white transition-colors">
-              Blogs
+              {t('footer.navigation.blogs')}
             </Link>
           </nav>
         </div>
@@ -83,7 +89,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
           {/* Left Side - Copyright */}
           <p className="text-gray-400 text-sm">
-            © 2025 All rights reserved.
+            {t('footer.copyright')}
           </p>
 
           {/* Right Side - Social Media */}

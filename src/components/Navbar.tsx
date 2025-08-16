@@ -1,7 +1,10 @@
 import { Button } from "../components/ui/button";
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
+  const { t } = useTranslation();
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm shadow-sm py-2 px-8 flex items-center justify-between">
       {/* Left: Logo */}
@@ -15,14 +18,14 @@ const Navbar = () => {
       </div>
       {/* Center: Nav Links */}
       <div className="flex gap-8">
-        <Link to="/" className="text-gray-700 hover:text-black font-medium">Home</Link>
-        <Link to="/about" className="text-gray-700 hover:text-black font-medium">About Us</Link>
-        <Link to="/projects" className="text-gray-700 hover:text-black font-medium">Our Projects</Link>
-        <Link to="/services" className="text-gray-700 hover:text-black font-medium">Services</Link>
+        <Link to="/" className="text-gray-700 hover:text-black font-medium">{t('navbar.home')}</Link>
+        <Link to="/about" className="text-gray-700 hover:text-black font-medium">{t('navbar.aboutUs')}</Link>
+        <Link to="/projects" className="text-gray-700 hover:text-black font-medium">{t('navbar.ourProjects')}</Link>
+        <Link to="/services" className="text-gray-700 hover:text-black font-medium">{t('navbar.services')}</Link>
       </div>
       {/* Right: Contact Us Button */}
       <Link to="/contact">
-        <Button className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800">Contact Us</Button>
+        <Button className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800">{t('navbar.contactUs')}</Button>
       </Link>
     </nav>
   )
