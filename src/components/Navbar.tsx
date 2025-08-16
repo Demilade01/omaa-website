@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="w-full bg-white shadow-sm py-2 px-8 flex items-center justify-between">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm shadow-sm py-2 px-8 flex items-center justify-between">
       {/* Left: Logo */}
       <div className="flex items-center gap-2">
         {/* Placeholder logo (replace with your logo asset) */}
