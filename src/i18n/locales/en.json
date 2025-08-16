@@ -1,0 +1,130 @@
+{
+  "navbar": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "ourProjects": "Our Projects",
+    "services": "Services",
+    "contactUs": "Contact Us"
+  },
+  "hero": {
+    "title": {
+      "line1": "Engineering",
+      "line2": "Strength.",
+      "line3": "Assembling the Future"
+    },
+    "subtitle": "Delivering industrial and petrochemical solutions across Europe and Africa since 2013.",
+    "viewProjects": "View Projects",
+    "requestProposal": "Request a Proposal"
+  },
+  "partners": {
+    "title": "Trusted By Industry Leaders",
+    "subtitle": "Partnering with global companies to deliver exceptional results"
+  },
+  "about": {
+    "title": "Transforming Industries with MAA",
+    "subtitle": "MAA is a specialized partner in industrial construction, on-site assembly, and rehabilitation services.",
+    "tabs": {
+      "story": "Our Story",
+      "mission": "Our Mission",
+      "vision": "Our Vision"
+    },
+    "story": {
+      "title": "Our Story",
+      "content": "Founded in 2013, MAA has been at the forefront of industrial innovation, delivering exceptional engineering solutions across Europe and Africa. Our journey began with a simple vision: to transform how industries approach construction and assembly."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To deliver world-class industrial and petrochemical solutions through innovative engineering, precision detailing, and on-site expertise. We strive to exceed client expectations while maintaining the highest safety and quality standards."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "To be the leading partner in industrial construction and assembly, recognized for our technical excellence, innovative solutions, and commitment to sustainable development across global markets."
+    },
+    "stats": {
+      "projects": "Project Completed",
+      "revenue": "Total Revenue",
+      "successRate": "Success Rate",
+      "rating": "Average Rating"
+    }
+  },
+  "services": {
+    "title": "Comprehensive Industrial Services by MAA",
+    "subtitle": "From concept to construction—we deliver expert detailing, engineering, and on-site solutions tailored to industrial and infrastructure projects.",
+    "items": {
+      "structuralSteel": {
+        "title": "Structural Steel Detailing",
+        "description": "Precision detailing services for complex industrial facilities, ensuring seamless fabrication and assembly."
+      },
+      "reinforcement": {
+        "title": "Reinforcement Detailing",
+        "description": "Accurate and code-compliant rebar detailing for high-risk environments and critical infrastructure."
+      },
+      "onSiteAssembly": {
+        "title": "On-Site Assembly",
+        "description": "Expert technical supervision and assembly services for industrial and petrochemical projects."
+      },
+      "projectManagement": {
+        "title": "Project Management",
+        "description": "Comprehensive project coordination from planning to completion with strict quality control."
+      },
+      "technicalConsulting": {
+        "title": "Technical Consulting",
+        "description": "Specialized engineering consultation for complex industrial challenges and optimization."
+      },
+      "qualityAssurance": {
+        "title": "Quality Assurance",
+        "description": "Rigorous quality control and testing protocols to ensure project excellence and compliance."
+      }
+    },
+    "cta": {
+      "title": "Request a Proposal to get the best services",
+      "subtitle": "Fast, reliable care, 24/7. Our expert team is here to handle your urgent health needs, anytime.",
+      "button": "Request a Proposal"
+    }
+  },
+  "projects": {
+    "title": "Featured Projects & Engineering Excellence",
+    "subtitle": "Explore our portfolio of industrial, petrochemical, and infrastructure projects—where precision detailing meets real-world impact.",
+    "items": {
+      "refinery": {
+        "title": "On-site assembly and technical supervision of a refinery extension project",
+        "description": "The crucial capacity of managing on-site assembly operations requires expert technical direction and visionary leadership. This complex role involves the orchestration of various teams, promoting synergy among engineers, technicians, and safety experts. It demands a forward-thinking mindset to proactively identify and mitigate potential obstacles while implementing industry-leading practices and pioneering solutions to enhance operational efficiency and elevate safety protocols. Our unwavering dedication to excellence ensures meticulous attention to detail, adherence to the highest quality standards and regulatory mandates, and ultimately, the successful achievement of our expansion objectives.",
+        "button": "Back"
+      },
+      "desert": {
+        "title": "Design and construction of heavy-duty support systems in desert conditions",
+        "description": "Expertly engineered support systems built to withstand extreme desert climates, ensuring durability and stability for heavy-duty industrial operations.",
+        "button": "View Details"
+      },
+      "steel": {
+        "title": "Comprehensive Structural Steel Detailing for Large-Scale Industrial Plants",
+        "description": "Precision detailing services tailored for complex industrial facilities, ensuring seamless fabrication and on-site assembly.",
+        "button": "View Details"
+      },
+      "petrochemical": {
+        "title": "High-Accuracy Reinforcement Detailing for Petrochemical Infrastructure",
+        "description": "Accurate and code-compliant rebar detailing solutions for high-risk environments, supporting safety and structural performance.",
+        "button": "View Details"
+      }
+    }
+  },
+  "cta": {
+    "title": "Looking for a reliable partner in industrial assembly and engineering?",
+    "contactUs": "Contact Us",
+    "requestProposal": "Request a Proposal"
+  },
+  "footer": {
+    "copyright": "© 2025 All rights reserved.",
+    "navigation": {
+      "home": "Home",
+      "aboutUs": "About us",
+      "ourProjects": "Our Projects",
+      "services": "Services",
+      "blogs": "Blogs"
+    }
+  },
+  "languages": {
+    "english": "English",
+    "portuguese": "Portuguese"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "navbar": {
+    "home": "Início",
+    "aboutUs": "Sobre Nós",
+    "ourProjects": "Nossos Projetos",
+    "services": "Serviços",
+    "contactUs": "Entre em Contato"
+  },
+  "hero": {
+    "title": {
+      "line1": "Engenharia",
+      "line2": "Força.",
+      "line3": "Montando o Futuro"
+    },
+    "subtitle": "Fornecendo soluções industriais e petroquímicas em toda a Europa e África desde 2013.",
+    "viewProjects": "Ver Projetos",
+    "requestProposal": "Solicitar Proposta"
+  },
+  "partners": {
+    "title": "Confiado Por Líderes da Indústria",
+    "subtitle": "Parceria com empresas globais para entregar resultados excepcionais"
+  },
+  "about": {
+    "title": "Transformando Indústrias com MAA",
+    "subtitle": "MAA é um parceiro especializado em construção industrial, montagem no local e serviços de reabilitação.",
+    "tabs": {
+      "story": "Nossa História",
+      "mission": "Nossa Missão",
+      "vision": "Nossa Visão"
+    },
+    "story": {
+      "title": "Nossa História",
+      "content": "Fundada em 2013, a MAA tem estado na vanguarda da inovação industrial, fornecendo soluções de engenharia excepcionais em toda a Europa e África. Nossa jornada começou com uma visão simples: transformar como as indústrias abordam a construção e montagem."
+    },
+    "mission": {
+      "title": "Nossa Missão",
+      "content": "Fornecer soluções industriais e petroquímicas de classe mundial através de engenharia inovadora, detalhamento de precisão e expertise no local. Nos esforçamos para superar as expectativas dos clientes mantendo os mais altos padrões de segurança e qualidade."
+    },
+    "vision": {
+      "title": "Nossa Visão",
+      "content": "Ser o parceiro líder em construção e montagem industrial, reconhecido por nossa excelência técnica, soluções inovadoras e compromisso com o desenvolvimento sustentável em mercados globais."
+    },
+    "stats": {
+      "projects": "Projetos Concluídos",
+      "revenue": "Receita Total",
+      "successRate": "Taxa de Sucesso",
+      "rating": "Avaliação Média"
+    }
+  },
+  "services": {
+    "title": "Serviços Industriais Abrangentes da MAA",
+    "subtitle": "Do conceito à construção—entregamos detalhamento especializado, engenharia e soluções no local adaptadas a projetos industriais e de infraestrutura.",
+    "items": {
+      "structuralSteel": {
+        "title": "Detalhamento de Aço Estrutural",
+        "description": "Serviços de detalhamento de precisão para instalações industriais complexas, garantindo fabricação e montagem perfeitas."
+      },
+      "reinforcement": {
+        "title": "Detalhamento de Armadura",
+        "description": "Detalhamento de vergalhões preciso e em conformidade com códigos para ambientes de alto risco e infraestrutura crítica."
+      },
+      "onSiteAssembly": {
+        "title": "Montagem no Local",
+        "description": "Serviços de supervisão técnica especializada e montagem para projetos industriais e petroquímicos."
+      },
+      "projectManagement": {
+        "title": "Gestão de Projetos",
+        "description": "Coordenação abrangente de projetos desde o planejamento até a conclusão com controle de qualidade rigoroso."
+      },
+      "technicalConsulting": {
+        "title": "Consultoria Técnica",
+        "description": "Consultoria de engenharia especializada para desafios industriais complexos e otimização."
+      },
+      "qualityAssurance": {
+        "title": "Garantia de Qualidade",
+        "description": "Protocolos rigorosos de controle de qualidade e testes para garantir excelência e conformidade do projeto."
+      }
+    },
+    "cta": {
+      "title": "Solicite uma Proposta para obter os melhores serviços",
+      "subtitle": "Cuidado rápido e confiável, 24/7. Nossa equipe especializada está aqui para atender suas necessidades urgentes de saúde, a qualquer momento.",
+      "button": "Solicitar Proposta"
+    }
+  },
+  "projects": {
+    "title": "Projetos em Destaque e Excelência em Engenharia",
+    "subtitle": "Explore nosso portfólio de projetos industriais, petroquímicos e de infraestrutura—onde o detalhamento de precisão encontra impacto no mundo real.",
+    "items": {
+      "refinery": {
+        "title": "Montagem no local e supervisão técnica de um projeto de extensão de refinaria",
+        "description": "A capacidade crucial de gerenciar operações de montagem no local requer direção técnica especializada e liderança visionária. Este papel complexo envolve a orquestração de várias equipes, promovendo sinergia entre engenheiros, técnicos e especialistas em segurança. Exige uma mentalidade de pensamento futuro para identificar e mitigar proativamente obstáculos potenciais enquanto implementa práticas líderes da indústria e soluções pioneiras para melhorar a eficiência operacional e elevar protocolos de segurança. Nossa dedicação inabalável à excelência garante atenção meticulosa aos detalhes, aderência aos mais altos padrões de qualidade e mandatos regulatórios, e, em última análise, o sucesso na consecução de nossos objetivos de expansão.",
+        "button": "Voltar"
+      },
+      "desert": {
+        "title": "Design e construção de sistemas de suporte de alta resistência em condições desérticas",
+        "description": "Sistemas de suporte projetados com expertise para suportar climas desérticos extremos, garantindo durabilidade e estabilidade para operações industriais de alta resistência.",
+        "button": "Ver Detalhes"
+      },
+      "steel": {
+        "title": "Detalhamento Abrangente de Aço Estrutural para Plantas Industriais de Grande Escala",
+        "description": "Serviços de detalhamento de precisão adaptados para instalações industriais complexas, garantindo fabricação e montagem no local perfeitas.",
+        "button": "Ver Detalhes"
+      },
+      "petrochemical": {
+        "title": "Detalhamento de Armadura de Alta Precisão para Infraestrutura Petroquímica",
+        "description": "Soluções de detalhamento de vergalhões precisas e em conformidade com códigos para ambientes de alto risco, apoiando segurança e desempenho estrutural.",
+        "button": "Ver Detalhes"
+      }
+    }
+  },
+  "cta": {
+    "title": "Procurando um parceiro confiável em montagem industrial e engenharia?",
+    "contactUs": "Entre em Contato",
+    "requestProposal": "Solicitar Proposta"
+  },
+  "footer": {
+    "copyright": "© 2025 Todos os direitos reservados.",
+    "navigation": {
+      "home": "Início",
+      "aboutUs": "Sobre nós",
+      "ourProjects": "Nossos Projetos",
+      "services": "Serviços",
+      "blogs": "Blog"
+    }
+  },
+  "languages": {
+    "english": "English",
+    "portuguese": "Português"
+  }
+}
